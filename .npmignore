@@ -1,14 +1,70 @@
+# Development files
 .dev
 examples
 src
 test
 
+# Lock files
 bun.lockb
 bun.lock
 package-lock.json
-tsconfig.json
+yarn.lock
 
+# Configuration files
+tsconfig*.json
+eslint.config.js
+rollup.config.js
+
+# Development tools
 .husky
 .github
 .vscode
+.git
 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage
+*.lcov
+.nyc_output
+
+# Environment variables
+.env*
+
+# Cache directories
+.cache
+.npm
+.eslintcache
+.stylelintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache
+
+# Temporary folders
+tmp/
+temp/
