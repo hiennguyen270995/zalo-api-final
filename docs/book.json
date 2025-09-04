@@ -1,0 +1,17 @@
+{
+  "title": "Zalo API Final Documentation",
+  "description": "Thư viện API Zalo không chính thức cho JavaScript - Tối ưu cho thị trường Việt Nam",
+  "author": "BSSC System",
+  "language": "vi",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": ["github"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/hiennguyen270995/zalo-node"
+    }
+  }
+}

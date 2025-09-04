@@ -1,0 +1,85 @@
+# API
+
+- [acceptFriendRequest](acceptfriendrequest.md): Chấp nhận lời mời kết bạn
+- [addGroupBlockedMember](addgroupblockedmember.md): Thêm người dùng vào danh sách chặn của nhóm
+- [addGroupDeputy](addgroupdeputy.md): Thêm phó nhóm
+- [addQuickMessage](addquickmessage.md): Thêm tin nhắn nhanh
+- [addReaction](addreaction.md): Thả cảm xúc tin nhắn
+- [addUnreadMark](addunreadmark.md): Đánh dấu chưa đọc
+- [addUserToGroup](addusertogroup.md): Thêm người dùng vào nhóm
+- [blockUser](blockuser.md): Chặn người dùng
+- [blockViewFeed](blockviewfeed.md): Chặn người dùng xem bài đăng của mình
+- [changeAccountAvatar](changeaccountavatar.md): Thay đổi ảnh đại diện
+- [changeFriendAlias](changefriendalias.md): Cập nhật tên gợi nhớ cho bạn bè
+- [changeGroupAvatar](changegroupavatar.md): Cập nhật ảnh nhóm
+- [changeGroupName](changegroupname.md): Cập nhật tên nhóm
+- [changeGroupOwner](changegroupowner.md): Cập nhật tên nhóm
+- [createAutoReply](createautoreply.md): Thêm cấu hình tự động trả lời (dành cho zBusiness)
+- [createCatalog](createcatalog.md): Thêm danh mục sản phẩm (dành cho zBusiness)
+- [createGroup](creategroup.md): Tạo nhóm mới
+- [createNote](createnote.md): Tạo ghi chú mới
+- [createPoll](createpoll.md): Tạo cuộc bình chọn
+- [createProductCatalog](createproductcatalog.md): Tạo sản phẩm trong danh mục
+- [createReminder](createreminder.md): Tạo nhắc hẹn
+- [custom](custom.md): api tùy chỉnh
+- [deleteAutoReply](deleteautoreply.md): Xóa cấu hình tự động trả lời (dành cho zBusiness)
+- [deleteAvatar](deleteavatar.md): Xóa ảnh đại diện khỏi danh sách ảnh đại diện
+- [deleteCatalog](deletecatalog.md): Xóa danh mục sản phẩm (dành cho zBusiness)
+- [deleteChat](deletechat.md): Xóa đoạn chat
+- [deleteMessage](deletemessage.md): Xóa tin nhắn của bản thân hoặc thành viên nhóm
+- [deleteProductCatalog](deleteproductcatalog.md): Xóa sản phẩm khỏi danh mục
+- [disableGroupLink](disablegrouplink.md): Tắt link tham gia nhóm
+- [disperseGroup](dispersegroup.md): Giải tán nhóm
+- [editNote](editnote.md): Chỉnh sửa ghi chú
+- [editReminder](editreminder.md): Chỉnh sửa nhắc hẹn
+- [enableGroupLink](enablegrouplink.md): Bật link tham gia nhóm
+- [fetchAccountInfo](fetchaccountinfo.md): Lấy thông tin của tài khoản đã đăng nhập
+- [findUser](finduser.md): Tìm thông tin người dùng qua số điện thoại
+- [forwardMessage](forwardmessage.md): Chuyển tiếp tin nhắn
+- [getAliasList](getaliaslist.md): Lấy toàn bộ thẻ phân loại
+- [getAllFriends](getallfriends.md): Lấy danh sách bạn bè của tài khoản đã đăng nhập
+- [getAllGroups](getallgroups.md): Lấy danh sách nhóm đã tham gia
+- [getArchivedChatList](getarchivedchatlist.md): Lấy danh sách đoạn chat đã lưu trữ
+- [getAutoDeleteChat](getautodeletechat.md): Lấy danh sách cuộc trò chuyện tự động xóa
+- [getBizAccount](getbizaccount.md): Lấy thông tin tài khoản Biz
+- [getContext](getcontext.md): Lấy danh sách nhóm đã tham gia
+- [getCookie](getcookie.md): Lấy cookie đang sử dụng
+- [getFriendRequest](getfriendrequest.md): Lấy danh sách lời mời kết bạn nhận được
+- [getGroupInfo](getgroupinfo.md): Lấy thông tin của các nhóm
+- [getGroupMembersInfo](getgroupmembersinfo.md): Lấy thông tin của thành viên trong nhóm
+- [getHiddenConversPin](gethiddenconverspin.md): Lấy danh sách cuộc trò chuyện đã ẩn bằng Pin
+- [getLabels](getlabels.md): Lấy danh sách thẻ phân loại
+- [getMute](getmute.md): Lấy danh sách người dùng bị tắt thông báo
+- [getOwnId](getownid.md): Lấy id của tài khoản đã đăng nhập
+- [getPollDetail](getpolldetail.md): Lấy thông tin của cuộc bình chọn
+- [getQR](getqr.md): Lấy mã QR của bạn bè
+- [getQuickMessage](getquickmessage.md): Lấy danh sách tin nhắn nhanh
+- [getStickers](getstickers.md): Tìm sticker bằng từ khóa
+- [getStickersDetail](getstickersdetail.md): Lấy thông tin của các sticker
+- [getUnreadMark](getunreadmark.md): Lấy danh sách cuộc trò chuyện được đánh dấu chưa đọc
+- [getUserInfo](getuserinfo.md): Lấy thông tin người dùng
+- [hideConversation](hideconversation.md): Ẩn, bỏ ẩn cuộc trò chuyện
+- [inviteUserToGroups](inviteusertogroups.md): Mời người dùng vào (các) nhóm
+- [keepAlive](keepalive.md): Không rõ...
+- [lockPoll](lockpoll.md): Khóa cuộc bình chọn
+- [parseLink](parselink.md): Xử lý liên kết
+- [pinConversations](pinconversations.md): Ghim hoặc bỏ ghim các cuộc hội thoại
+- [removeFriendAlias](removefriendalias.md): Xóa tên gợi nhớ của bạn bè
+- [removeGroupDeputy](removegroupdeputy.md): Xóa phó nhóm
+- [removeQuickMessage](removequickmessage.md): Xóa tin nhắn nhanh
+- [removeUnreadMark](removeunreadmark.md): Xóa dấu đánh chưa đọc
+- [removeUserFromGroup](removeuserfromgroup.md): Xóa thành viên khỏi nhóm
+- [resetHiddenConversPin](resethiddenconverspin.md): Đặt lại mã PIN trò chuyện ẩn. Khi đặt lại mã PIN, tất cả trò chuyện đang được ẩn sẽ bị xoá (bao gồm toàn bộ nội dung cuộc trò chuyện)
+- [sendCard](sendcard.md): Gửi danh thiếp
+- [sendDeliveredEvent](senddeliveredevent.md): Gửi sự kiễn đã nhận tin nhắn
+- [sendFriendRequest](sendfriendrequest.md): Gửi lời mời kết bạn
+- [sendLink](sendlink.md): Gửi liên kết
+- [sendMessage](sendmessage.md): Gửi tin nhắn văn bản
+- [sendReport](sendreport.md): Báo xấu
+- [sendSeenEvent](sendseenevent.md): Gửi sự kiễn đã đọc tin nhắn
+- [sendSticker](sendsticker.md): Gửi sticker/nhãn dán
+- [sendTypingEvent](sendtypingevent.md): Gửi sự kiễn đang gõ tin nhắn
+- [sendVideo](sendvideo.md): Gửi video
+- [sendVoice](sendvoice.md): Gửi đoạn hội thoại
+- [unblockUser](unblockuser.md): Bỏ chặn người dùng
+- [undo](undo.md): Thu hồi tin nhắn
