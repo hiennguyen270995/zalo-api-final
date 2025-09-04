@@ -69,9 +69,8 @@ For security-related issues, please contact:
 - **GitHub Issues**: Create a private issue with the `[SECURITY]` label
 - **GitHub Discussions**: Use the "Security" category for general security questions
 - **Team Members**: 
-  - [@RFS-ADRENO](https://github.com/RFS-ADRENO)
-  - [@truong9c2208](https://github.com/truong9c2208)
-  - [@JustKemForFun](https://github.com/JustKemForFun)
+  - [@hiennguyen270995](https://github.com/hiennguyen270995)
+ 
 - **Alternative**: Contact any team member through GitHub for urgent security matters
 
 ## Acknowledgments

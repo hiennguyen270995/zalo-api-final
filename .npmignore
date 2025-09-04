@@ -4,6 +4,9 @@ examples
 src
 test
 
+# Documentation folder (keep .md files in root)
+docs/
+
 # Lock files
 bun.lockb
 bun.lock
@@ -12,8 +15,6 @@ yarn.lock
 
 # Configuration files
 tsconfig*.json
-eslint.config.js
-rollup.config.js
 
 # Development tools
 .husky
@@ -50,9 +51,6 @@ coverage
 .eslintcache
 .stylelintcache
 
-# Optional npm cache directory
-.npm
-
 # Optional REPL history
 .node_repl_history
 
@@ -62,7 +60,7 @@ coverage
 # Yarn Integrity file
 .yarn-integrity
 
-# parcel-bundler cache (https://parceljs.org/)
+# parcel-bundler cache
 .parcel-cache
 
 # Temporary folders

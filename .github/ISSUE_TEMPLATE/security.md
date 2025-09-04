@@ -69,6 +69,6 @@ assignees: ""
 
 ---
 
-**Note**: This report will be reviewed by the security team and handled according to our [Security Policy](https://github.com/RFS-ADRENO/zalo-api-final/blob/main/SECURITY.md). We appreciate your responsible disclosure and will work to resolve this issue promptly.
+**Note**: This report will be reviewed by the security team and handled according to our [Security Policy](https://github.com/hiennguyen270995/zalo-api-final/blob/main/SECURITY.md). We appreciate your responsible disclosure and will work to resolve this issue promptly.
 
 **⚠️ Warning**: This is an unofficial API library. Please ensure your testing does not violate Zalo's terms of service or put any accounts at risk. 

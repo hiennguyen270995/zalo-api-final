@@ -411,7 +411,7 @@ Nếu thư viện này hữu ích với bạn, hãy ủng hộ tác giả một 
 
 ## 🌟 Credits
 
-Dựa trên thư viện [zalo-api-final](https://github.com/RFS-ADRENO/zalo-api-final) với nhiều cải tiến và tối ưu hóa.
+Dựa trên thư viện [zalo-api-final](https://github.com/hiennguyen270995/zalo-api-final) với nhiều cải tiến và tối ưu hóa.
 
 ---
 

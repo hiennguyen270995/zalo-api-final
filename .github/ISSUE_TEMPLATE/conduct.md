@@ -52,4 +52,4 @@ assignees: ""
 
 ---
 
-**Note**: This report will be reviewed by the team and handled according to our [Code of Conduct](https://github.com/RFS-ADRENO/zalo-api-final/blob/main/CODE_OF_CONDUCT.md). We are committed to maintaining a safe and welcoming community for everyone. 
+**Note**: This report will be reviewed by the team and handled according to our [Code of Conduct](https://github.com/hiennguyen270995/zalo-api-final/blob/main/CODE_OF_CONDUCT.md). We are committed to maintaining a safe and welcoming community for everyone. 
