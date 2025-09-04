@@ -353,10 +353,10 @@ try {
 
 Chúng tôi hoan nghênh mọi đóng góp! Hãy:
 
-1. Fork repository
-2. Tạo feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
+1. Fork repository này
+2. Tạo nhánh tính năng (`git checkout -b tinh-nang/TinhNangTuyetVoi`)
+3. Commit thay đổi (`git commit -m 'Thêm tính năng tuyệt vời'`)
+4. Push lên nhánh (`git push origin tinh-nang/TinhNangTuyetVoi`)
 5. Mở Pull Request
 
 ## 📞 Hỗ trợ
