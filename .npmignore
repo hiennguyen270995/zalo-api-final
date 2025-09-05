@@ -6,6 +6,9 @@ test
 
 # Documentation folder (keep .md files in root)
 docs/
+*.bak
+*_backup
+
 
 # Lock files
 bun.lockb

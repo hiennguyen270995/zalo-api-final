@@ -388,18 +388,18 @@ MIT License - xem [LICENSE](LICENSE) để biết thêm chi tiết.
 
 Nếu thư viện này hữu ích với bạn, hãy ủng hộ tác giả một ly cà phê! ☕
 
-**🏦 Thông tin chuyển khoản:**
+**🏦 Thông tin mời cafe:**
 - **Ngân hàng:** VietinBank
 - **Số tài khoản:** `100884532014`
 - **Chủ tài khoản:** `NGUYEN THI HIEN`
 
-**📱 Quét QR Code để chuyển khoản:**
+**📱 Quét QR Code để mời cafe:**
 
 <div align="center">
 
-![QR Code VietinBank](https://img.vietqr.io/image/970415-100884532014-compact2.png?addInfo=Ung%20ho%20zalo-api-final)
-
-*QR Code VietinBank - Quét để chuyển khoản*
+![QR Code VietinBank](qr.png)
+<img src="qr.png" alt="QR Code VietinBank" width="200">
+*QR Code VietinBank - Quét để mời cafe*
 
 </div>
 

@@ -1,3 +1,7 @@
+*.bak
+*_backup
+
+
 # Scripts cần thiết - chỉ ignore script test
 test/**/*.sh
 

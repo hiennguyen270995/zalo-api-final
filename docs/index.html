@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Zalo API Final Documentation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Tài liệu API Zalo không chính thức cho JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0084FF;
+      --secondary-color: #1A1A1A;
+      --accent-color: #00C6FF;
+      --text-color: #333333;
+      --light-gray: #F5F7FA;
+      --border-color: #E4E7ED;
+      --shadow-color: rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff !important;
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    /* Sidebar Styling */
+    .sidebar {
+      background: var(--light-gray) !important;
+      border-right: 1px solid var(--border-color);
+      padding: 2rem 0;
+    }
+
+    .sidebar-nav {
+      padding: 0 1rem;
+    }
+
+    .sidebar-nav li {
+      margin: 0.5rem 0;
+    }
+
+    .sidebar-nav a {
+      color: var(--text-color);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar ul li.active>a {
+      background: var(--primary-color);
+      border: unset;
+      color: white;
+    }
+
+    .sidebar-nav a:hover {
+      background: var(--primary-color);
+      color: white;
+    }
+
+    .app-sub-sidebar li:before {
+      content: "";
+      padding-right: 4px;
+      float: left;
+    }
+
+    /* Content Styling */
+    .content {
+      background: #fff !important;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .markdown-section {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .markdown-section h1 {
+      color: var(--primary-color);
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    .markdown-section h2 {
+      color: var(--secondary-color);
+      font-size: 2rem;
+      margin: 2rem 0 1rem;
+      font-weight: 600;
+    }
+
+    .markdown-section h3 {
+      color: var(--secondary-color);
+      font-size: 1.5rem;
+      margin: 1.5rem 0 1rem;
+      font-weight: 600;
+    }
+
+    .markdown-section p {
+      margin-bottom: 1rem;
+    }
+
+    /* Code Block Styling */
+    pre {
+      background: var(--light-gray);
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px var(--shadow-color);
+    }
+
+    code {
+      font-family: 'Fira Code', monospace;
+      background: var(--light-gray);
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    /* Search Bar Styling */
+    .search {
+      background: #fff !important;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px var(--shadow-color);
+    }
+
+    .search input {
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+    }
+
+    /* Buy Me a Coffee Button */
+    .bmc-button {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 1000;
+      padding: 12px 20px;
+      border-radius: 8px;
+      background: var(--primary-color);
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 132, 255, 0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .bmc-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 132, 255, 0.3);
+    }
+
+    .bmc-button img {
+      height: 35px;
+      width: 35px;
+      margin-right: 10px;
+    }
+
+    /* QR Modal Styling */
+    .qr-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 2000;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(5px);
+    }
+
+    .qr-modal.active {
+      display: flex;
+    }
+
+    .qr-modal-content {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .qr-modal-content h3 {
+      color: var(--primary-color);
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .qr-modal-content img {
+      max-width: 300px;
+      margin: 1.5rem 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px var(--shadow-color);
+    }
+
+    .qr-modal-content p {
+      color: var(--text-color);
+      margin-top: 1rem;
+    }
+
+    .qr-modal-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 28px;
+      cursor: pointer;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    .qr-modal-close:hover {
+      transform: rotate(90deg);
+    }
+
+    .search {
+      display: none;
+    }
+    
+    input[type="search"] {
+      display: none;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .content {
+        padding: 1rem;
+      }
+
+      .markdown-section h1 {
+        font-size: 2rem;
+      }
+
+      .markdown-section h2 {
+        font-size: 1.75rem;
+      }
+
+      .markdown-section h3 {
+        font-size: 1.25rem;
+      }
+
+      .bmc-button {
+        padding: 10px 16px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <div class="bmc-button" id="bmcButton">
+    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
+    <span>Buy me a coffee</span>
+  </div>
+  <div class="qr-modal" id="qrModal">
+    <span class="qr-modal-close" id="closeModal">&times;</span>
+    <div class="qr-modal-content">
+      <h3>Quét mã QR để ủng hộ</h3>
+      <img src="qr.png" alt="QR Code">
+      <p>Cảm ơn sự ủng hộ của bạn!</p>
+    </div>
+  </div>
+  <script>
+    window.$docsify = {
+      name: 'Zalo API Final',
+      repo: 'https://github.com/hiennguyen270995/zalo-api-final',
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 3,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Tìm kiếm...',
+        noData: 'Không tìm thấy kết quả!',
+        depth: 6
+      },
+      themeColor: '#0084FF',
+      auto2top: true,
+      coverpage: false,
+      loadNavbar: false,
+      mergeNavbar: true,
+      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(content) {
+            return content;
+          });
+        }
+      ]
+    }
+
+    // Xử lý modal QR code
+    document.addEventListener('DOMContentLoaded', function() {
+      const modal = document.getElementById('qrModal');
+      const btn = document.getElementById('bmcButton');
+      const closeBtn = document.getElementById('closeModal');
+
+      btn.addEventListener('click', function() {
+        modal.classList.add('active');
+      });
+
+      closeBtn.addEventListener('click', function() {
+        modal.classList.remove('active');
+      });
+
+      window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+          modal.classList.remove('active');
+        }
+      });
+    });
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+</body>
+</html>

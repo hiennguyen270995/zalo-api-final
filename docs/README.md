@@ -47,4 +47,3 @@ npm install zalo-api-final
 
 ---
 
-**Package tối ưu cho thị trường Việt Nam với từ khóa SEO tiếng Việt**
