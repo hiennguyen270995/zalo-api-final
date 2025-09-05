@@ -8,6 +8,18 @@
 
 ✨ Phiên bản cuối cùng và tốt nhất của zalo-api-final với nhiều cải tiến về bảo mật, ổn định và tính năng.
 
+## 📖 Tài liệu chính thức
+
+🔗 **[Xem hướng dẫn đầy đủ tại Documentation](https://hiennguyen270995.github.io/zalo-api-final/)**
+
+Tài liệu bao gồm:
+- 📋 Hướng dẫn cài đặt và sử dụng từng bước
+- 🔧 API Methods và Examples chi tiết
+- 📚 Models & Types reference
+- 🎧 Event Listeners và Webhook
+- 🔐 Các phương thức đăng nhập
+- 🎯 Ví dụ thực tế và best practices
+
 ## 🎯 Dành cho ai?
 
 - 🏢 **Doanh nghiệp** muốn quản lý nhiều tài khoản Zalo để tăng doanh số
@@ -147,14 +159,26 @@ class ZaloSalesBot {
 }
 ```
 
+## ☕ Ủng hộ dự án
+
+Nếu thư viện này giúp bạn tiết kiệm thời gian hoặc giải quyết được vấn đề, hãy cân nhắc ủng hộ tác giả một ☕ để duy trì và phát triển thêm tính năng mới!
+
+**📱 Quét QR Code để mời cafe:**
+
+<div align="center">
+<img src="qr.png" alt="QR Code VietinBank" width="200">
+</div>
+
+*VietinBank - 100884532014 - NGUYEN THI HIEN*
+
 ## � Tài liệu chi tiết
 
-Xem tài liệu API đầy đủ tại: **[docs/](./docs/)**
+Xem tài liệu API đầy đủ tại: **[https://hiennguyen270995.github.io/zalo-api-final/](https://hiennguyen270995.github.io/zalo-api-final/)**
 
-- 📖 [API Methods](./docs/api/)
-- 🏗️ [Models & Types](./docs/models/)
-- 🎧 [Event Listeners](./docs/listeners/)
-- 🔐 [Login Methods](./docs/login/)
+- 📖 [API Methods](https://hiennguyen270995.github.io/zalo-api-final/#/api/)
+- 🏗️ [Models & Types](https://hiennguyen270995.github.io/zalo-api-final/#/models/)
+- 🎧 [Event Listeners](https://hiennguyen270995.github.io/zalo-api-final/#/listeners/)
+- 🔐 [Login Methods](https://hiennguyen270995.github.io/zalo-api-final/#/login/)
 
 ## �📦 Cài đặt
 
@@ -384,37 +408,14 @@ Chúng tôi hoan nghênh mọi đóng góp! Hãy:
 
 MIT License - xem [LICENSE](LICENSE) để biết thêm chi tiết.
 
-## ☕ Ủng hộ tác giả
-
-Nếu thư viện này hữu ích với bạn, hãy ủng hộ tác giả một ly cà phê! ☕
-
-**🏦 Thông tin mời cafe:**
-- **Ngân hàng:** VietinBank
-- **Số tài khoản:** `100884532014`
-- **Chủ tài khoản:** `NGUYEN THI HIEN`
-
-**📱 Quét QR Code để mời cafe:**
-
-<div align="center">
-
-![QR Code VietinBank](qr.png)
-<img src="qr.png" alt="QR Code VietinBank" width="200">
-*QR Code VietinBank - Quét để mời cafe*
-
-</div>
-
-**💝 Mỗi đóng góp của bạn sẽ giúp:**
-- ⚡ Duy trì và cập nhật thư viện
-- 🆕 Phát triển tính năng mới
-- 📖 Cải thiện tài liệu
-- 🐛 Sửa lỗi nhanh chóng
-
-## 🌟 Credits
+##  Credits
 
 Dựa trên thư viện [zalo-api-final](https://github.com/hiennguyen270995/zalo-api-final) với nhiều cải tiến và tối ưu hóa.
 
 ---
 
 **⭐ Nếu thư viện hữu ích, hãy cho chúng tôi một star trên GitHub!**
+
+**💡 Có ý tưởng tính năng mới? Hãy tạo issue để thảo luận!**
 
 **💡 Có ý tưởng tính năng mới? Hãy tạo issue để thảo luận!**
